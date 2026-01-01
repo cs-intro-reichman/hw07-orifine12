@@ -15,12 +15,12 @@ public class Sierpinski {
         StdDraw.setPenColor(StdDraw.BLACK);
         StdDraw.enableDoubleBuffering();
 
-        // Big equilateral triangle coordinates (with margins)
+        // Big triangle coordinates (with margins)
         double margin = 0.05;
         double side = 0.90;
         double h = side * Math.sqrt(3) / 2.0;
 
-        // vertices: top (x1,y1), left (x2,y2), right (x3,y3)
+        //top (x1,y1), left (x2,y2), right (x3,y3)
         double x1 = 0.5,           y1 = margin + h;
         double x2 = 0.5 - side/2,  y2 = margin;
         double x3 = 0.5 + side/2,  y3 = margin;
